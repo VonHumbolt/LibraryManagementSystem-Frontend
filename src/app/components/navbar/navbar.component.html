@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid mt-2">
+      <h2><a class="navbar-brand" routerLink="">Library Management System</a></h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+        <form *ngIf="isAccountOpen()" class="d-flex">
+          <app-reading-list></app-reading-list>
+          <button  class="btn btn-success ms-3" type="submit" routerLink="/profile">Üzerimdekiler</button>
+          <button class="btn btn-outline-primary ms-3" (click)="logout()" routerLink="/">Oturumu Kapat</button>
+        </form>
+
+        <form *ngIf="!isAccountOpen()" class="d-flex">
+          <button class="btn btn-outline-success" routerLink="/login" type="submit">Oturum Aç</button>
+          <button class="btn btn-outline-primary ms-3" routerLink="/register">Kaydol</button>
+        </form>
+      </div>
+  </nav>

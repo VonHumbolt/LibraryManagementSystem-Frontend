@@ -1,0 +1,4 @@
+<ul class="list-group">
+    <li class="list-group-item fw-bold">En Yeni Yayınlar</li>
+    <li *ngFor="let book of newestBooks" class="list-group-item" routerLink="book/{{book.id}}">{{book.bookName}}</li>
+</ul>

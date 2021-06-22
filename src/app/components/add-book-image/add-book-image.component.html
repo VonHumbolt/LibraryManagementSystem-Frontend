@@ -1,0 +1,21 @@
+<div class="content">
+    <div class="card">
+        <div class="card-header">   
+            <h3 class="title"> Resim Ekle</h3>
+        </div>
+        <div class="card-body">
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Kitabın Resmi</label>
+                <input class="form-control" (change)="onSelectFile($event)" type="file" id="formFile">
+            </div>
+            <div class="text-center">
+                <p>Resim eklemek istemiyorsanız dosya seçmeden ekle butonuna basınız</p>
+                <img width="300" height="500" [src]="url" *ngIf="url">
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button" (click)="addImage()">Resim Ekle</button>                
+            </div>
+        </div>
+    </div>
+</div>
+
