@@ -9,17 +9,17 @@ The project UI is divided into two section as user and admin. User can register 
 ####  <li> User Appearance </li>
 All books in the library are listed in this page.
 <p align="center"> 
-  <img src="src/images/books_notadmin.jpg" width=700 height=400 />
+  <img src="src/images/books_notadmin.jpg" width=800 height=400 />
 </p>
 
 ####  <li> Admin Appearance </li>
 <p align="center">
-  <img src="src/images/books_admin.jpg" width=700 height=400 />
+  <img src="src/images/books_admin.jpg" width=800 height=400 />
 </p>
 
 #### <li> Users can search for books by filtering by book name, author, category and publisher </li>
 <p align="center">
-  <img src="src/images/book_search.jpg" width=700 height=400 />
+  <img src="src/images/book_search.jpg" width=800 height=400 />
 </p>
 
 #### <li> Book Detail Page </li>
@@ -35,19 +35,19 @@ This page is only visible for admins. Borrowing and lending process is done here
 whether the user is a member of library. If user is a member of library, all the borrowed books are displayed. 
 The admin can lend the book which is selected by users to user, takes the book back or extend return date of book in this panel.
 <p align="center">
-  <img src="src/images/borrow_page.jpg" width=700 height=400 /> 
+  <img src="src/images/borrow_page.jpg" width=800 height=400 /> 
 </p>
 
 #### <li> User's Book </li>
 Books that is borrowed by user are listed here. The return date of book and remaining day are showed user. User only once can extend the 
 return date of book byself.
 <p align="center">
-  <img src="src/images/user_books.jpg" width=700 height=400 /> 
+  <img src="src/images/user_books.jpg" width=800 height=400 /> 
 </p>
 
 #### <li> The Administrator can add book and book image</li>
 <p align="center">
-  <img src="src/images/add_image.jpg" width=700 height=400 /> 
+  <img src="src/images/add_image.jpg" width=800 height=400 /> 
 </p>
 
 ## Development server
